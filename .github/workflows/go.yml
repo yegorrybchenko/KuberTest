@@ -36,6 +36,6 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: docker.pkg.github.com
-        repository: ${{ github.repository }}/kubertest
+        repository: docker.pkg.github.com/yegorrybchenko/kubertest
         tag_with_sha: true
         tag_with_ref: true
